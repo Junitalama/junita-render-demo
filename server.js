@@ -3,7 +3,7 @@ const app = express();
 
 let count = 1;
 app.get('/counter', (req, res) => {
-    count = count * 1;
+    count = count * 2;
     res.send({ count })
 
 
