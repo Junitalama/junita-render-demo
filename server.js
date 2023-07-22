@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 
 let count = 1;
-app.get('/', (req, res) => {
+app.get('/counter', (req, res) => {
     count = count * 1;
-    res.send({ count})
+    res.send({ count })
 
 
 });
